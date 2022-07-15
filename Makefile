@@ -5,4 +5,4 @@ endif
 
 .PHONY: start
 start:
-	sqlite_web -p ${SW_PORT} -x -r -u ${SW_PREFIX} ${SQLITE_DATABASE}
+	sqlite_web -p ${SW_PORT} -x -r -P ${SW_PASSWORD} ${SQLITE_DATABASE}
